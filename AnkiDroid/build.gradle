@@ -312,10 +312,10 @@ dependencies {
     implementation 'com.github.mrudultora:Colorpicker:1.2.0'
 
     // Kotlin reflection
-    implementation "org.jetbrains.kotlin:kotlin-reflect:1.7.0"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.7.10"
 
     // Kotlin test
-    implementation "org.jetbrains.kotlin:kotlin-test:1.7.0"
+    implementation "org.jetbrains.kotlin:kotlin-test:1.7.10"
 
     // Cannot use debugImplementation since classes need to be imported in AnkiDroidApp
     // and there's no no-op version for release build. Usage has been disabled for release
